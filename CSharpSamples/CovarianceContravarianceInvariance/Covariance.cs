@@ -21,6 +21,15 @@ namespace CovarianceContravarianceInvariance
 
             Get(entities);
             Get(companies);
+
+
+            ICustomEnumerable<Entity> entities1 = new CustomEnumerable<Entity>();
+            entities.Add(new Entity() { Id = 1 });
+
+            ICustomEnumerable<Company> companies1 = new CustomEnumerable<Company>();
+            companies.Add(new Company() { Id = 2, Name = "Ford" });
+
+            entities1 = companies1;
         }
 
         /// <summary>
@@ -44,5 +53,19 @@ namespace CovarianceContravarianceInvariance
     class Company : Entity
     {
         public String Name { get; set; }
+    }
+
+
+    interface ICustomEnumerable<out T>
+    {
+        //Invalid variance: The type parameter 'T' must be contravariantly valid on ICustomEnumerable<T>.Add(T). 'T' is covariant.
+        //void Add(T t);//Incorrect
+
+        //T only can go out.
+        //T get();//Correct
+    }
+
+    class CustomEnumerable<T> : ICustomEnumerable<T>
+    {
     }
 }
