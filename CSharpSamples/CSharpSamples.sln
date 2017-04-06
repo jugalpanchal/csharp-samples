@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassAndMethod", "Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{D32B9F5A-EFA4-4ED9-9DB2-E670C3739352}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAndDelegate", "EventAndDelegate\EventAndDelegate.csproj", "{1D52C32A-FA5A-474F-AF62-04B5D1521E5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D32B9F5A-EFA4-4ED9-9DB2-E670C3739352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32B9F5A-EFA4-4ED9-9DB2-E670C3739352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32B9F5A-EFA4-4ED9-9DB2-E670C3739352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D52C32A-FA5A-474F-AF62-04B5D1521E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D52C32A-FA5A-474F-AF62-04B5D1521E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D52C32A-FA5A-474F-AF62-04B5D1521E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D52C32A-FA5A-474F-AF62-04B5D1521E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,8 +10,7 @@ namespace PartialClassAndMethod
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
         }
     }
-}
-
-	
+}	
