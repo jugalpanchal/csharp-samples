@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FunAndAction
 {
-    class Car
+    public class Car
     {
     }
 }
