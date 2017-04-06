@@ -8,7 +8,7 @@ namespace EventAndDelegate
 {
     public class DelegateAndEvent
     {
-        static void MainDelegateAndEvent(string[] args)
+        static void Main(string[] args)
         {
             DelegateAndEvent d = new DelegateAndEvent();
             d.Test();
